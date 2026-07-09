@@ -1,5 +1,3 @@
-from pathlib import Path
-
 html = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,8 +187,3 @@ html = """<!DOCTYPE html>
   </main>
 </body>
 </html>
-"""
-
-path = Path("/mnt/data/privacy-policy-tiny-habit-tracker.html")
-path.write_text(html, encoding="utf-8")
-path.as_posix()
